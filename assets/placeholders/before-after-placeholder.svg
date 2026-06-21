@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Before and after AI enhancement placeholder</title>
+  <desc id="desc">Split-screen placeholder for before and after AI enhancement media.</desc>
+  <rect width="960" height="600" fill="#10131b"/>
+  <rect x="70" y="80" width="390" height="360" rx="18" fill="#202636"/>
+  <rect x="500" y="80" width="390" height="360" rx="18" fill="#173029"/>
+  <g opacity=".22" fill="#fff"><circle cx="190" cy="190" r="72"/><circle cx="330" cy="310" r="105"/><circle cx="620" cy="188" r="72"/><circle cx="760" cy="306" r="105"/></g>
+  <path d="M480 70v390" stroke="#fff" stroke-opacity=".16" stroke-width="4"/>
+  <g font-family="Inter, Arial, sans-serif" font-weight="800">
+    <text x="92" y="128" fill="#ff8d6b" font-size="24">BEFORE</text><text x="522" y="128" fill="#a8e46c" font-size="24">AFTER</text>
+    <text x="70" y="535" fill="#aab3c4" font-size="24">Enhancement comparison capture</text>
+  </g>
+</svg>

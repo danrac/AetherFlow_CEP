@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">OCR and template text placeholder</title>
+  <desc id="desc">Media slot showing raster text reconstructed into editable text layers.</desc>
+  <rect width="960" height="600" fill="#0c0f16"/>
+  <rect x="74" y="92" width="350" height="310" rx="18" fill="#232838"/>
+  <rect x="536" y="92" width="350" height="310" rx="18" fill="#161d29" stroke="#54d7e8" stroke-opacity=".6"/>
+  <g font-family="Inter, Arial, sans-serif" font-weight="900">
+    <text x="118" y="210" fill="#7d879a" font-size="64">SALE</text>
+    <text x="118" y="286" fill="#7d879a" font-size="36">Raster reference</text>
+    <text x="580" y="210" fill="#fff" font-size="64">SALE</text>
+    <text x="580" y="286" fill="#a8e46c" font-size="36">Editable layers</text>
+    <text x="74" y="535" fill="#aab3c4" font-size="24">OCR/template reconstruction capture</text>
+  </g>
+  <path d="M455 248h54m-20-22 22 22-22 22" stroke="#ff8d6b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

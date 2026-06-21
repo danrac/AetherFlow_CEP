@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Upscale or slow-motion placeholder</title>
+  <desc id="desc">Media slot for an upscale or slow-motion demo.</desc>
+  <rect width="960" height="600" fill="#0a0d14"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M120 380C260 112 398 500 542 240S732 96 842 300" stroke="#54d7e8" stroke-width="16" opacity=".78"/>
+    <path d="M120 430C292 158 418 548 582 282S756 160 842 350" stroke="#ff8d6b" stroke-width="8" opacity=".72"/>
+  </g>
+  <g fill="#fff" opacity=".11">
+    <rect x="100" y="100" width="130" height="84" rx="12"/><rect x="252" y="100" width="130" height="84" rx="12"/><rect x="404" y="100" width="130" height="84" rx="12"/><rect x="556" y="100" width="130" height="84" rx="12"/><rect x="708" y="100" width="130" height="84" rx="12"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-weight="800">
+    <text x="96" y="482" fill="#fff" font-size="46">Upscale / slow motion</text>
+    <text x="96" y="535" fill="#aab3c4" font-size="24">Final footage workflow capture</text>
+  </g>
+</svg>

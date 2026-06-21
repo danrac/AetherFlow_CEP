@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AetherFlow is a node-based AI workflow extension for Adobe After Effects.">
+    <title>AetherFlow | Node-based AI workflows for After Effects</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="AetherFlow home">
+        <img class="brand-mark" src="assets/brand/aetherflow-logo.png" alt="" aria-hidden="true">
+        <span>AetherFlow</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#demo">Demo</a>
+        <a href="#features">Features</a>
+        <a href="#support">Support</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="https://github.com/sponsors/danrac">Sponsor</a>
+        <a href="https://danrac.github.io/AetherFlow_Docs/">Docs</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <img class="hero-logo" src="assets/brand/aetherflow-logo.png" alt="AetherFlow logo">
+          <p class="eyebrow">Creative AI for motion work</p>
+          <h1>AetherFlow</h1>
+          <p class="tagline">Node-based AI workflows for Adobe After Effects.</p>
+          <p class="hero-text">
+            Build visual AI pipelines for enhancement, OCR, depth, image generation, and video processing without leaving the creative context of After Effects.
+          </p>
+          <div class="button-row" aria-label="Primary actions">
+            <a class="button button-primary" href="https://github.com/danrac/AetherFlow_Releases/releases/latest">Download / View Releases</a>
+            <a class="button button-secondary" href="https://github.com/sponsors/danrac">Sponsor on GitHub</a>
+          </div>
+          <p class="note">Early-stage and moving quickly.</p>
+        </div>
+
+        <div class="hero-panel" aria-label="AetherFlow interface preview">
+          <div class="window-bar">
+            <span></span><span></span><span></span>
+            <strong>AetherFlow Workflow</strong>
+          </div>
+          <div class="workflow-canvas">
+            <article class="node node-source">
+              <small>Source</small>
+              <strong>After Effects Comp</strong>
+              <span>Active composition</span>
+            </article>
+            <article class="node node-ai">
+              <small>AI Tool</small>
+              <strong>OCR Template Text</strong>
+              <span>Rebuild editable text</span>
+            </article>
+            <article class="node node-fx">
+              <small>Enhance</small>
+              <strong>Upscale / Clean</strong>
+              <span>Local runtime output</span>
+            </article>
+            <article class="node node-output">
+              <small>Output</small>
+              <strong>AE Layers</strong>
+              <span>Review and refine</span>
+            </article>
+            <svg class="node-lines" viewBox="0 0 820 430" aria-hidden="true">
+              <path d="M188 152 C260 152 260 270 330 270" />
+              <path d="M488 270 C565 270 552 152 628 152" />
+              <path d="M190 152 C382 72 545 86 628 152" />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section id="demo" class="section-shell demo-section">
+        <div class="section-heading">
+          <p class="eyebrow">Visual workflow previews</p>
+          <h2>See how AetherFlow fits into real production work.</h2>
+          <p>Demo captures will focus on the moments creative users care about: building node graphs, processing footage, reconstructing editable text, and bringing finished results back into After Effects.</p>
+        </div>
+
+        <div class="demo-grid">
+          <figure class="demo-feature media-frame">
+            <img src="assets/placeholders/aetherflow-demo-placeholder.svg" alt="AetherFlow workflow demo media slot">
+            <figcaption>Workflow run-through: from After Effects source to node-based AI output.</figcaption>
+          </figure>
+          <figure class="media-frame">
+            <img src="assets/placeholders/node-workflow-placeholder.svg" alt="AetherFlow node workflow media slot">
+            <figcaption>Node graph: source, model, processing, and output steps.</figcaption>
+          </figure>
+          <figure class="media-frame">
+            <img src="assets/placeholders/before-after-placeholder.svg" alt="AI enhancement comparison media slot">
+            <figcaption>Enhancement comparison: original footage beside processed output.</figcaption>
+          </figure>
+          <figure class="media-frame">
+            <img src="assets/placeholders/ocr-template-placeholder.svg" alt="OCR and template text reconstruction media slot">
+            <figcaption>OCR and template text: raster references rebuilt as editable AE layers.</figcaption>
+          </figure>
+          <figure class="media-frame">
+            <img src="assets/placeholders/upscale-slowmo-placeholder.svg" alt="Upscale or slow-motion workflow media slot">
+            <figcaption>Video tools: upscale, cleanup, or motion-focused workflow captures.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-shell split-section">
+        <div class="section-heading compact">
+          <p class="eyebrow">What it does</p>
+          <h2>AI workflows that feel like a creative tool.</h2>
+        </div>
+        <div class="plain-list">
+          <p>Build AI workflows visually inside After Effects using connected nodes instead of one-off scripts and scattered command-line tools.</p>
+          <p>Run local AI tools from a node interface, then bring the output back into your comp for review, timing, layering, and finishing.</p>
+          <p>Connect models for upscaling, depth, OCR, image generation, motion tools, and video processing as reusable creative pipelines.</p>
+          <p>Reduce repetitive production work so motion designers, editors, VFX artists, and teams can spend more time on the actual shot.</p>
+        </div>
+      </section>
+
+      <section id="features" class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Key features</p>
+          <h2>Built around the way artists iterate.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="card"><h3>Node-based workflow editor</h3><p>Build and reuse AI pipelines visually, with source, processing, and output steps laid out clearly.</p></article>
+          <article class="card"><h3>Local AI model execution</h3><p>Run supported workflows locally so experiments stay close to the project and do not require a hosted backend.</p></article>
+          <article class="card"><h3>After Effects integration</h3><p>Use AetherFlow from the creative environment where comps, layers, timing, and revisions already live.</p></article>
+          <article class="card"><h3>Upscaling / enhancement</h3><p>Prepare restoration, cleanup, and enhancement workflows for footage and generated assets.</p></article>
+          <article class="card"><h3>OCR and template text workflows</h3><p>Explore text reconstruction paths that turn rasterized references into editable AE text layers.</p></article>
+          <article class="card"><h3>Depth / normal / UV workflows</h3><p>Generate supporting passes that help with compositing, stylization, relighting, and spatial effects.</p></article>
+          <article class="card roadmap-card"><h3>Future camera extraction / motion tools</h3><p>Roadmap work for camera extraction, tracking helpers, and motion-aware nodes is planned as the project matures.</p></article>
+        </div>
+      </section>
+
+      <section id="support" class="section-shell support-section">
+        <div class="support-copy">
+          <p class="eyebrow">Support development</p>
+          <h2>Public downloads, private source, and optional support.</h2>
+          <p>
+            AetherFlow keeps user-facing documentation and release downloads public while source development remains private. Optional sponsorship helps keep the project moving without locking releases behind payment.
+          </p>
+          <ul class="support-list">
+            <li>Development time</li>
+            <li>Testing hardware</li>
+            <li>GPU/runtime experiments</li>
+            <li>Model integration work</li>
+            <li>Documentation</li>
+            <li>Installer and packaging work</li>
+            <li>Continued development</li>
+          </ul>
+        </div>
+        <div class="donation-panel" aria-label="Donation options">
+          <a class="donation-button donation-button-primary" href="https://github.com/sponsors/danrac" aria-label="Sponsor AetherFlow development on GitHub Sponsors">GitHub Sponsors <span>Active</span></a>
+          <a class="donation-button" href="https://github.com/danrac/AetherFlow_Releases/releases/latest" aria-label="Download the latest AetherFlow public release">Latest release <span>Public</span></a>
+          <a class="donation-button" href="https://danrac.github.io/AetherFlow_Docs/" aria-label="Read public AetherFlow documentation">Documentation <span>Public</span></a>
+          <p class="donation-note">Support is optional. Every release remains public, transparent, and usable without payment.</p>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Roadmap</p>
+          <h2>Future Features</h2>
+          <p>These roadmap items show where the project is heading while keeping the current release honest about what is ready today.</p>
+        </div>
+        <div class="roadmap-grid">
+          <article><span>01</span><h3>Stable installer</h3></article>
+          <article><span>02</span><h3>More reliable OCR workflows</h3></article>
+          <article><span>03</span><h3>Better video enhancement tools</h3></article>
+          <article><span>04</span><h3>Camera extraction / motion tracking nodes</h3></article>
+          <article><span>05</span><h3>Model manager</h3></article>
+          <article><span>06</span><h3>Improved documentation</h3></article>
+          <article><span>07</span><h3>Creative-user onboarding</h3></article>
+          <article><span>08</span><h3>Cross-platform packaging</h3></article>
+        </div>
+      </section>
+
+      <section class="section-shell open-source-section">
+        <div>
+          <p class="eyebrow">Public downloads</p>
+          <h2>Documentation and releases stay public.</h2>
+          <p>
+            Public pages provide user-facing documentation, release downloads, checksums, and install notes. Source code and internal development materials are private.
+          </p>
+        </div>
+        <div class="link-grid">
+          <a href="https://danrac.github.io/AetherFlow_Docs/">Documentation</a>
+          <a href="https://github.com/danrac/AetherFlow_Releases/releases/latest">Releases</a>
+          <a href="https://github.com/danrac/AetherFlow_Releases">Release repository</a>
+          <a href="https://github.com/sponsors/danrac">Sponsor development</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>AetherFlow</span>
+      <a href="https://danrac.github.io/AetherFlow_Docs/">Docs</a>
+      <a href="https://github.com/sponsors/danrac">Sponsor</a>
+      <a href="https://github.com/danrac/AetherFlow_Releases/releases/latest">Releases</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

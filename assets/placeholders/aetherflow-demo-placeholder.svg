@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 880" role="img" aria-labelledby="title desc">
+  <title id="title">AetherFlow workflow demo placeholder</title>
+  <desc id="desc">A dark interface mockup with connected workflow nodes for a future animated demo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#10131b"/>
+      <stop offset=".52" stop-color="#0a0d14"/>
+      <stop offset="1" stop-color="#182235"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop stop-color="#54d7e8"/>
+      <stop offset=".52" stop-color="#a8e46c"/>
+      <stop offset="1" stop-color="#ff8d6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="880" fill="url(#bg)"/>
+  <g opacity=".22" stroke="#fff">
+    <path d="M0 120h1280M0 240h1280M0 360h1280M0 480h1280M0 600h1280M0 720h1280"/>
+    <path d="M160 0v880M320 0v880M480 0v880M640 0v880M800 0v880M960 0v880M1120 0v880"/>
+  </g>
+  <rect x="95" y="86" width="1090" height="708" rx="26" fill="#111722" stroke="#ffffff" stroke-opacity=".16"/>
+  <rect x="95" y="86" width="1090" height="64" rx="26" fill="#1b2230"/>
+  <circle cx="132" cy="119" r="10" fill="#ff8d6b"/><circle cx="164" cy="119" r="10" fill="#ffd36b"/><circle cx="196" cy="119" r="10" fill="#a8e46c"/>
+  <text x="238" y="127" fill="#aab3c4" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Workflow demo media</text>
+  <path d="M320 308C450 206 544 546 674 444S840 296 982 386" fill="none" stroke="url(#edge)" stroke-width="9" stroke-linecap="round"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(170 245)">
+      <rect width="230" height="132" rx="16" fill="#18202d" stroke="#54d7e8" stroke-opacity=".72"/>
+      <text x="24" y="45" fill="#54d7e8" font-size="18" font-weight="800">SOURCE</text>
+      <text x="24" y="82" fill="#fff" font-size="24" font-weight="800">AE Comp</text>
+      <text x="24" y="112" fill="#aab3c4" font-size="17">Active composition</text>
+    </g>
+    <g transform="translate(525 444)">
+      <rect width="250" height="140" rx="16" fill="#18202d" stroke="#a8e46c" stroke-opacity=".72"/>
+      <text x="24" y="45" fill="#a8e46c" font-size="18" font-weight="800">AI NODE</text>
+      <text x="24" y="82" fill="#fff" font-size="24" font-weight="800">OCR + Enhance</text>
+      <text x="24" y="112" fill="#aab3c4" font-size="17">Local runtime</text>
+    </g>
+    <g transform="translate(882 300)">
+      <rect width="230" height="132" rx="16" fill="#18202d" stroke="#ff8d6b" stroke-opacity=".72"/>
+      <text x="24" y="45" fill="#ff8d6b" font-size="18" font-weight="800">OUTPUT</text>
+      <text x="24" y="82" fill="#fff" font-size="24" font-weight="800">Editable AE</text>
+      <text x="24" y="112" fill="#aab3c4" font-size="17">Layers and media</text>
+    </g>
+  </g>
+</svg>
