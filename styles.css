@@ -47,6 +47,15 @@ img {
   max-width: 100%;
 }
 
+h1,
+h2,
+h3,
+p,
+a,
+li {
+  overflow-wrap: anywhere;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -54,6 +63,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 24px;
   padding: 18px clamp(18px, 4vw, 56px);
   border-bottom: 1px solid transparent;
@@ -97,6 +107,7 @@ img {
 }
 
 .nav {
+  flex-wrap: wrap;
   gap: 20px;
   color: var(--muted);
   font-size: 0.92rem;
@@ -141,14 +152,14 @@ p {
 h1 {
   margin-bottom: 14px;
   font-size: clamp(4rem, 14vw, 8.7rem);
-  line-height: 0.82;
+  line-height: 1;
   letter-spacing: 0;
 }
 
 h2 {
   margin-bottom: 16px;
   font-size: clamp(2rem, 5vw, 4.3rem);
-  line-height: 0.98;
+  line-height: 1.08;
   letter-spacing: 0;
 }
 
@@ -164,7 +175,7 @@ h3 {
   color: var(--text);
   font-size: clamp(1.35rem, 3vw, 2.2rem);
   font-weight: 700;
-  line-height: 1.08;
+  line-height: 1.16;
 }
 
 .hero-text,
@@ -196,6 +207,8 @@ h3 {
   border-radius: var(--radius);
   padding: 0 18px;
   font-weight: 800;
+  text-align: center;
+  white-space: normal;
   transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
 }
 
